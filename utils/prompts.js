@@ -15,3 +15,5 @@ const prompts = [
       name: 'communication',
     },
 ];
+
+module.exports = prompts;
