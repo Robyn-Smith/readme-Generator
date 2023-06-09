@@ -17,10 +17,10 @@ function writeToFile(markdown) {
 function init() {
     inquirer
     .prompt(prompts)
-    .then((response)) => {
-        const  md = generateMarkdown(response);
+    .then((response) => {
+        const markdown = generateMarkdown(response);
         writeToFile(markdown);
-    }
+    })
 }
 
 // Function call to initialize app
