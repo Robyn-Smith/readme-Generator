@@ -68,24 +68,29 @@
 // Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
 
+// const prompts = require ('./utils/prompts');
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+
+function renderLicenseLink(license) {
+  if (license !== 'none') {
+    return `[license] (#license)`;
+  }
+  return '';
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license == 'none'){
-    return
+  if (license !== 'none'){
+    return `## License 
+    ${license}`
   }
   return '';
-}//not finished
+}
 
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'none') {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
@@ -99,7 +104,7 @@ function generateMarkdown(data) {
 
 
   ## Description
-  ${}
+  ${data.description}
 
   ## Table of Contents
   - [Description](#description)
@@ -111,29 +116,25 @@ function generateMarkdown(data) {
 
 
   ## Installation
-  ${}
+  ${data.installation}
 
 
   ## Usage
-  ${}
+  ${data.usage}
 
 
   ## Contributions
-  ${}
+  ${data.contributions}
 
 
   ## Testing
-  ${}
-
-
-  ## License
-  ${}
+  ${data.testing}
 
 
   ## Questions
   If there are any further questions you have about this application please contact me. 
-  My Email is: ${}
-  If you would like to view other applications I have created; my GitHub username is ${} and this is a link to my GitHub Repo ${}
+  My Email is: ${data.email}
+  If you would like to view other applications I have created; my GitHub username is ${data.generateMarkdown}
 `;
 }
 
