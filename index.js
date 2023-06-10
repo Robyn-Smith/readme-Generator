@@ -6,6 +6,50 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 // const questions = [];
+// const questions = [
+//     {
+//       type: 'input',
+//       message: 'What is your description of this project?',
+//       name: 'description',
+//     },
+//     {
+//       type: 'input',
+//       message: 'How do you install this project?',
+//       name: 'installation',
+//     },
+//     {
+//       type: 'input',
+//       message: 'How do you use this project?',
+//       name: 'usage',
+//     },
+//     {
+//       type: 'input',
+//       message: 'How can people contribute to this project?',
+//       name: 'contributions',
+//     },
+//     {
+//       type: 'list',
+//       message: 'What license does this project use?',
+//       name: 'license',
+//       choices: ['none', 'MIT', 'BSD 3', 'apache-2.0', 'gpl-3.0', 'ms-pl', 'osl-3.0']
+//     },
+//     {
+//       type: 'input',
+//       message: 'How is the project tested?',
+//       default: 'npm test',
+//       name: 'testing',
+//     },
+//     {
+//       type: 'input',
+//       message: 'What is your Github account username?',
+//       name: 'name',
+//     },
+//     {
+//       type: 'input',
+//       message: 'What is your email address?',
+//       name: 'email',
+//     },
+// ];
 
 // TODO: Create a function to write README file
 function writeToFile(markdown) {
@@ -19,12 +63,29 @@ function init() {
     .prompt(prompts)
     .then((response) => {
         const markdown = generateMarkdown(response);
-        writeToFile(markdown);
-    })
+        writeToFile('README.md', markdown);
+    });
 }
 
 // Function call to initialize app
 init();
+
+
+
+// function writeToFile() {
+//     return inquirer.prompt(questions)
+//     .then((data) => {
+//      const fileName = 'README.md'
+//      const mark = create(data)
+//       fs.writeFile(fileName, mark,(err) =>
+//       err ? console.log(err) : console.log ('created'))
+//       // console.log (data)
+//       return (data)
+//     })
+//   }
+   
+//   writeToFile()
+
 
 
 // inquirer
