@@ -99,42 +99,43 @@ function renderLicenseBadge(license) {
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+function generateMarkdown(response) {
+  return `# ${response.title}
 
 
   ## Description
-  ${data.description}
+  ${response.description}
 
   ## Table of Contents
-  - [Description](#description)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [Contributions] (#contributions)
-  - [License] (#license)
-  - [Testing] (#tests)
+  + [Description](#description)
+  + [Installation] (#installation)
+  + [Usage] (#usage)
+  + [Contributions] (#contributions)
+  + [License] (#license)
+  + [Testing] (#tests)
+  + [Questions] (#questions)
 
 
   ## Installation
-  ${data.installation}
+  ${response.installation}
 
 
   ## Usage
-  ${data.usage}
+  ${response.usage}
 
 
   ## Contributions
-  ${data.contributions}
+  ${response.contributions}
 
 
   ## Testing
-  ${data.testing}
+  ${response.testing}
 
 
   ## Questions
   If there are any further questions you have about this application please contact me. 
-  My Email is: ${data.email}
-  If you would like to view other applications I have created; my GitHub username is ${data.generateMarkdown}
+  My Email is: ${response.email}
+  If you would like to view other applications I have created; my GitHub username is ${response.generateMarkdown}
 `;
 }
 

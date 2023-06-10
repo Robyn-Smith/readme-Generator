@@ -52,39 +52,38 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // ];
 
 // TODO: Create a function to write README file
-function writeToFile(markdown) {
-          fs.writeFile('readme.md', markdown, (err) =>
-  err ? console.error(err) : console.log('new file created')
-);}
+// function writeToFile(markdown) {
+//           fs.writeFile('readme.md', markdown, (err) =>
+//   err ? console.error(err) : console.log('new file created')
+// );}
 
 // TODO: Create a function to initialize app
-function init() {
-    inquirer
-    .prompt(prompts)
-    .then((response) => {
-        const markdown = generateMarkdown(response);
-        writeToFile('README.md', markdown);
-    });
-}
+// function init() {
+//     inquirer
+//     .prompt(prompts)
+//     .then((response) => {
+//         const markdown = generateMarkdown(response);
+//         writeToFile('README.md', markdown);
+//     });
+// }
 
 // Function call to initialize app
-init();
+// init();
 
 
 
-// function writeToFile() {
-//     return inquirer.prompt(questions)
-//     .then((data) => {
-//      const fileName = 'README.md'
-//      const mark = create(data)
-//       fs.writeFile(fileName, mark,(err) =>
-//       err ? console.log(err) : console.log ('created'))
-//       // console.log (data)
-//       return (data)
-//     })
-//   }
+function writeToFile() {
+    return inquirer.prompt(prompts)
+    .then((response) => {
+
+     const fileName = 'README.md'
+     const md = generateMarkdown(response)
+
+      fs.writeFile(fileName, md,(err) =>
+      err ? console.log(err) : console.log ('new file successfully created'))
+      return (response) })};
    
-//   writeToFile()
+  writeToFile()
 
 
 

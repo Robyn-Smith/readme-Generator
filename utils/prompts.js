@@ -1,5 +1,10 @@
 const prompts = [
     {
+        type: 'input',
+        message: 'What is the title of this project?',
+        name: 'title',
+      },
+    {
       type: 'input',
       message: 'What is your description of this project?',
       name: 'description',
