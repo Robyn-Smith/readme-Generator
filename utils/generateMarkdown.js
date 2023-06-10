@@ -123,6 +123,17 @@ function generateMarkdown(data) {
 
 
   ## Testing
+  ${}
+
+
+  ## License
+  ${}
+
+
+  ## Questions
+  If there are any further questions you have about this application please contact me. 
+  My Email is: ${}
+  If you would like to view other applications I have created; my GitHub username is ${} and this is a link to my GitHub Repo ${}
 `;
 }
 
