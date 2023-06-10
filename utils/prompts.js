@@ -16,7 +16,7 @@ const prompts = [
     },
     {
       type: 'input',
-      message: 'Who contributed to this project?',
+      message: 'How can people contribute to this project?',
       name: 'contributions',
     },
     {
@@ -30,6 +30,16 @@ const prompts = [
       message: 'How is the project tested?',
       default: 'npm test',
       name: 'testing',
+    },
+    {
+      type: 'input',
+      message: 'What is your Github account username?',
+      name: 'name',
+    },
+    {
+      type: 'input',
+      message: 'What is your email address?',
+      name: 'email',
     },
 ];
 
