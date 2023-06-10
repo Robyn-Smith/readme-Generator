@@ -87,7 +87,7 @@ function renderLicenseSection(license) {
 }//not finished
 
 function renderLicenseBadge(license) {
-  if (license !== 'None') {
+  if (license !== 'none') {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
   return '';
