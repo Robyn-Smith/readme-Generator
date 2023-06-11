@@ -72,31 +72,7 @@
 
 
 
-function renderLicenseLink(license) {
-  if (license !== 'none') {
-    return `[license] (#license)`;
-  }
-  return '';
-}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license !== 'none'){
-    return `## License 
-    ${license}`
-  }
-  return '';
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (license !== 'none') {
-    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-  }
-  return '';
-}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
@@ -135,8 +111,38 @@ function generateMarkdown(response) {
   ## Questions
   If there are any further questions you have about this application please contact me. 
   My Email is: ${response.email}
-  If you would like to view other applications I have created; my GitHub username is ${response.generateMarkdown}
+  If you would like to view other applications I have created; my GitHub username is ${response.name}
 `;
 }
+
+function renderLicenseLink(license) {
+  if (license !== 'none') {
+    return `[license] (#license)`;
+  }
+  return '';
+}
+
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {
+  if (license !== 'none'){
+    return `## License 
+    ${license}`
+  }
+  return '';
+}
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseBadge(license) {
+  if (license !== 'none') {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+  return '';
+}
+
+renderLicenseSection()
+renderLicenseBadge()
+renderLicenseLink()
 
 module.exports = generateMarkdown;
