@@ -39,11 +39,13 @@ const prompts = [
     {
       type: 'input',
       message: 'What is your Github account username?',
+      default: 'Robyn-Smith',
       name: 'name',
     },
     {
       type: 'input',
       message: 'What is your email address?',
+      default: 'robyn@email.com',
       name: 'email',
     },
 ];
