@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  An application that uses Node.js to allow users to generate readme files with ease.
+  An application that uses node.js to allow users to generate readme files with ease.
 
   ## Table of Contents
   + [Description](#description)
@@ -14,7 +14,7 @@
   + [License](#license)
 
   ## Installation
-  To install this application, users will have to install npm inquirer 8.2.4
+  To install this application, the user must install npm inquirer 8.2.4
 
 
   ## Usage
@@ -22,7 +22,7 @@
 
 
   ## Contributing
-  Contributions are not accepted for this project.
+  Contributions are not permitted for this project.
 
 
   ## Tests
