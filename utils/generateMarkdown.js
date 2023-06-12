@@ -110,8 +110,9 @@ function generateMarkdown(response) {
 
   ## License
   ${renderLicenseBadge(response.license)}
-  ${renderLicenseSection(response.license)}
-  ${renderLicenseLink(response.license)}
+  ${response.license}
+
+
   ## Questions
   If there are any further questions you have about this application please contact me. 
   My Email is: ${response.email}
@@ -119,12 +120,12 @@ function generateMarkdown(response) {
 `;
 }
 
-function renderLicenseLink(license) {
-  if (license !== 'none') {
-    return `[license] (#license)`;
-  }
-  return '';
-}
+// function renderLicenseLink(license) {
+//   if (license !== 'none') {
+//     return `[license] (#license)`;
+//   }
+//   return '';
+// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
