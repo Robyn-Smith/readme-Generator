@@ -52,7 +52,7 @@ function renderLicenseBadge(license) {
 //this function creates a link to the license section if a license is selected
 function renderLicenseLink(license) {
   if (license !== 'none') {
-    return `+ [license](#license)`;
+    return `+ [License](#license)`;
   }
   return '';
 }

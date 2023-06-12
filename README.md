@@ -1,28 +1,28 @@
-# o
+# j
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  o
+  j
 
   ## Table of Contents
   + [Description](#description)
   + [Installation](#installation)
   + [Usage](#usage)
-  + [Contributions](#contributions)
+  + [Contributing](#contributing)
   + [Testing](#tests)
   + [Questions](#questions)
   + [license](#license)
 
   ## Installation
-  o
+  j
 
 
   ## Usage
-  o
+  j
 
 
-  ## Contributions
-  o
+  ## Contributing
+  j
 
 
   ## Testing
