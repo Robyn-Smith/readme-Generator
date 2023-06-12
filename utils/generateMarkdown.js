@@ -28,7 +28,7 @@ ${renderLicenseBadge(response.license)}
 
 
   ## Tests
-  ${response.tests}
+  This project is tested using an ${response.tests}
 
 
   ${renderLicenseSection(response.license)}

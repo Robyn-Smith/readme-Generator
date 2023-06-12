@@ -1,8 +1,8 @@
-# Readme Generator
-
+# p
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  A read me generator
+  p
 
   ## Table of Contents
   + [Description](#description)
@@ -11,25 +11,26 @@
   + [Contributing](#contributing)
   + [Tests](#tests)
   + [Questions](#questions)
-  
+  + [License](#license)
 
   ## Installation
-  with NPM inquirer
+  p
 
 
   ## Usage
-  To create Read me files
+  p
 
 
   ## Contributing
-  They can access the Github repository 
+  p
 
 
   ## Tests
-  npm test
+  This project is tested using an npm test
 
 
-  
+  ## License 
+    This application uses an MIT license
 
 
   ## Questions
