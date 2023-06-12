@@ -1,8 +1,8 @@
-# oo
+# k
 
 
   ## Description
-  o
+  k
 
   ## Table of Contents
   + [Description](#description)
@@ -15,15 +15,15 @@
 
 
   ## Installation
-  o
+  k
 
 
   ## Usage
-  o
+  k
 
 
   ## Contributions
-  o
+  k
 
 
   ## Testing
@@ -31,11 +31,11 @@
 
 
   ## License
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-  MIT
+  ![GitHub license](https://img.shields.io/badge/license-osl-3.0-blue.svg)
+  osl-3.0
 
 
   ## Questions
   If there are any further questions you have about this application please contact me. 
   My Email is: robyn@email.com
-  If you would like to view other applications I have created; my GitHub username is Robyn-Smith
+  If you would like to view other applications I have created; my GitHub username is Robyn-Smith and here is a link to my GitHub repositories: (https://github.com/Robyn-Smith/)
