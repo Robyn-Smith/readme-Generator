@@ -87,10 +87,9 @@ ${renderLicenseBadge(response.license)}
   + [Installation](#installation)
   + [Usage](#usage)
   + [Contributions](#contributions)
-  + ${renderLicenseLink(response.license)}
   + [Testing](#tests)
   + [Questions](#questions)
-
+  ${renderLicenseLink(response.license)}
 
   ## Installation
   ${response.installation}
@@ -129,7 +128,7 @@ function renderLicenseBadge(license) {
 //this function creates a link to the license section if a license is selected
 function renderLicenseLink(license) {
   if (license !== 'none') {
-    return `[license](#license)`;
+    return `+ [license](#license)`;
   }
   return '';
 }
