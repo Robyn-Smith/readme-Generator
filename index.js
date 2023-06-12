@@ -5,74 +5,8 @@ const prompts = require ('./utils/prompts');                      //the array of
 const generateMarkdown = require('./utils/generateMarkdown');     //markdown template (generateMarkdown).
 
 
-// TODO: Create an array of questions for user input
-// const questions = [];
-// const questions = [
-//     {
-//       type: 'input',
-//       message: 'What is your description of this project?',
-//       name: 'description',
-//     },
-//     {
-//       type: 'input',
-//       message: 'How do you install this project?',
-//       name: 'installation',
-//     },
-//     {
-//       type: 'input',
-//       message: 'How do you use this project?',
-//       name: 'usage',
-//     },
-//     {
-//       type: 'input',
-//       message: 'How can people contribute to this project?',
-//       name: 'contributions',
-//     },
-//     {
-//       type: 'list',
-//       message: 'What license does this project use?',
-//       name: 'license',
-//       choices: ['none', 'MIT', 'BSD 3', 'apache-2.0', 'gpl-3.0', 'ms-pl', 'osl-3.0']
-//     },
-//     {
-//       type: 'input',
-//       message: 'How is the project tested?',
-//       default: 'npm test',
-//       name: 'testing',
-//     },
-//     {
-//       type: 'input',
-//       message: 'What is your Github account username?',
-//       name: 'name',
-//     },
-//     {
-//       type: 'input',
-//       message: 'What is your email address?',
-//       name: 'email',
-//     },
-// ];
-
-// TODO: Create a function to write README file
-// function writeToFile(markdown) {
-//           fs.writeFile('readme.md', markdown, (err) =>
-//   err ? console.error(err) : console.log('new file created')
-// );}
-
-// TODO: Create a function to initialize app
-// function init() {
-//     inquirer
-//     .prompt(prompts)
-//     .then((response) => {
-//         const markdown = generateMarkdown(response);
-//         writeToFile('README.md', markdown);
-//     });
-// }
-
-// Function call to initialize app
-// init();
-
-
-
+//this function writes a readme file using the responses from user input and the generate markdown template.
+//it also tells the user if there are any errors or if the file has successfully been creaated which is helpful in identifying any issues.
 function writeToFile() {
     return inquirer.prompt(prompts)
     .then((response) => {
@@ -85,32 +19,3 @@ function writeToFile() {
       return (response) })};
    
   writeToFile()
-
-
-
-// inquirer
-//   .prompt([
-//     {
-//       type: 'input',
-//       message: 'What is your user name?',
-//       name: 'username',
-//     },
-//     {
-//       type: 'input',
-//       message: 'What languages do you know?',
-//       name: 'language',
-//     },
-//     {
-//       type: 'input',
-//       message: 'What is your preferred method of communication?',
-//       name: 'communication',
-//     },
-//   ])
-//   .then((response) => {
-//     response.confirm === response.password
-//       ? console.log('Success!')
-//       : console.log('something is incorrect')
-//       fs.writeFile('log.txt', `${response.username}`, (err) =>
-//   err ? console.error(err) : console.log('new file')
-// );}
-//   );
