@@ -1,38 +1,47 @@
-# k
-
+# p
+![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
 
   ## Description
-  k
+  p
 
   ## Table of Contents
   + [Description](#description)
   + [Installation](#installation)
   + [Usage](#usage)
   + [Contributions](#contributions)
-  + [License](#license)
+  + function renderLicenseLink(license) {
+  if (license !== 'none') {
+    return `[license](#license)`;
+  }
+  return '';
+}
   + [Testing](#tests)
   + [Questions](#questions)
 
 
   ## Installation
-  k
+  p
 
 
   ## Usage
-  k
+  p
 
 
   ## Contributions
-  k
+  p
 
 
   ## Testing
   npm test
 
 
-  ## License
-  ![GitHub license](https://img.shields.io/badge/license-osl-3.0-blue.svg)
-  osl-3.0
+  function renderLicenseSection(license) {
+  if (license !== 'none'){
+    return `## License 
+    ${response.license}`
+  }
+  return '';
+}
 
 
   ## Questions
