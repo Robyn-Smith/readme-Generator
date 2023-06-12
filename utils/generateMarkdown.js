@@ -11,7 +11,7 @@ ${renderLicenseBadge(response.license)}
   + [Installation](#installation)
   + [Usage](#usage)
   + [Contributing](#contributing)
-  + [Testing](#tests)
+  + [Tests](#tests)
   + [Questions](#questions)
   ${renderLicenseLink(response.license)}
 
@@ -27,8 +27,8 @@ ${renderLicenseBadge(response.license)}
   ${response.contributing}
 
 
-  ## Testing
-  ${response.testing}
+  ## Tests
+  ${response.tests}
 
 
   ${renderLicenseSection(response.license)}

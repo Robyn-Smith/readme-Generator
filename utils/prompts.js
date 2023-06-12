@@ -34,7 +34,7 @@ const prompts = [
       type: 'input',
       message: 'How is the project tested?',
       default: 'npm test',
-      name: 'testing',
+      name: 'tests',
     },
     {
       type: 'input',
