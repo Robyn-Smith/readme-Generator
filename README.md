@@ -2,7 +2,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  An application that allows the users to create readme files with ease.
+  An application that allows users to create readme files with ease.
 
   ## Table of Contents
   + [Description](#description)
@@ -14,11 +14,11 @@
   + [License](#license)
 
   ## Installation
-  Installation of npm inquirer is needed to use this application.
+  Installation of npm inquirer is needed for this application.
 
 
   ## Usage
-  The user answers questions in the terminal, the answers are used to write a readme file.
+  The user ansers questions in the terminal. The answers are used to create a readme file.
 
 
   ## Contributing
