@@ -87,7 +87,7 @@ ${renderLicenseBadge(response.license)}
   + [Installation](#installation)
   + [Usage](#usage)
   + [Contributions](#contributions)
-  + ${renderLicenseLink}
+  + ${renderLicenseLink(response.license)}
   + [Testing](#tests)
   + [Questions](#questions)
 
@@ -108,7 +108,7 @@ ${renderLicenseBadge(response.license)}
   ${response.testing}
 
 
-  ${renderLicenseSection}
+  ${renderLicenseSection(response.license)}
 
 
   ## Questions
@@ -130,7 +130,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== 'none'){
     return `## License 
-    ${response.license}`
+    ${license}`
   }
   return '';
 }

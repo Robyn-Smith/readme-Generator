@@ -1,5 +1,5 @@
 # p
-![GitHub license](https://img.shields.io/badge/license-BSD 3-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
   p
@@ -9,12 +9,7 @@
   + [Installation](#installation)
   + [Usage](#usage)
   + [Contributions](#contributions)
-  + function renderLicenseLink(license) {
-  if (license !== 'none') {
-    return `[license](#license)`;
-  }
-  return '';
-}
+  + [license](#license)
   + [Testing](#tests)
   + [Questions](#questions)
 
@@ -35,13 +30,8 @@
   npm test
 
 
-  function renderLicenseSection(license) {
-  if (license !== 'none'){
-    return `## License 
-    ${response.license}`
-  }
-  return '';
-}
+  ## License 
+    MIT
 
 
   ## Questions
