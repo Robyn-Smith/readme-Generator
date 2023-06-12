@@ -108,6 +108,10 @@ function generateMarkdown(response) {
   ${response.testing}
 
 
+  ## License
+  ${renderLicenseBadge(response.license)}
+  ${renderLicenseSection(response.license)}
+  ${renderLicenseLink(response.license)}
   ## Questions
   If there are any further questions you have about this application please contact me. 
   My Email is: ${response.email}
@@ -141,8 +145,8 @@ function renderLicenseBadge(license) {
   return '';
 }
 
-renderLicenseSection()
-renderLicenseBadge()
-renderLicenseLink()
+// renderLicenseSection()
+// renderLicenseBadge()
+// renderLicenseLink()
 
 module.exports = generateMarkdown;
