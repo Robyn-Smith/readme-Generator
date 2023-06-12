@@ -1,8 +1,8 @@
-# o
-
+# ii
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  o
+  i
 
   ## Table of Contents
   + [Description](#description)
@@ -11,25 +11,26 @@
   + [Contributing](#contributing)
   + [Tests](#tests)
   + [Questions](#questions)
-  
+  + [License](#license)
 
   ## Installation
-  o
+  i
 
 
   ## Usage
-  o
+  i
 
 
   ## Contributing
-  o
+  i
 
 
   ## Tests
   npm test
 
 
-  
+  ## License 
+    This application uses an MIT license
 
 
   ## Questions
