@@ -1,4 +1,4 @@
-// TODO: Create a function to generate markdown for README
+// This function generates the markdown code template used in the read me file.
 function generateMarkdown(response) {
   return `# ${response.title}
 ${renderLicenseBadge(response.license)}
@@ -57,8 +57,7 @@ function renderLicenseLink(license) {
   return '';
 }
 
-// This function adds the license section to the read me, 
-//if there is no license the section does not appear (returns an empty string)
+// This function adds the license section to the read me, if there is no license the section does not appear
 function renderLicenseSection(license) {
   if (license !== 'none'){
     return `## License 
@@ -68,3 +67,4 @@ function renderLicenseSection(license) {
 }
 
 module.exports = generateMarkdown;
+//it is exported so that it can be reffered to in the index.js file

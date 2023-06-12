@@ -1,8 +1,9 @@
-// TODO: Include packages needed for this application
-const inquirer = require('inquirer');
-const fs = require('fs');
-const prompts = require ('./utils/prompts');
-const generateMarkdown = require('./utils/generateMarkdown');
+//all of the packages needed for this application are required here so that the code can access:
+const fs = require('fs');                         //the Node standard library package for reading and writing files
+const inquirer = require('inquirer');             //the NPM package which allows the user to input Node.js command line interface, 
+const prompts = require ('./utils/prompts');                      //the array of questions (prompts), 
+const generateMarkdown = require('./utils/generateMarkdown');     //markdown template (generateMarkdown).
+
 
 // TODO: Create an array of questions for user input
 // const questions = [];
