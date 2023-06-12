@@ -37,3 +37,7 @@
   If there are any further questions you have about this application please contact me. 
   My Email is: robyn@email.com
   If you would like to view other applications I have created; my GitHub username is Robyn-Smith and here is a link to my GitHub repositories: https://github.com/Robyn-Smith/
+
+
+  ## Walkthrough Video
+  [Walk through video](./assets/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
