@@ -116,7 +116,7 @@ function generateMarkdown(response) {
   ## Questions
   If there are any further questions you have about this application please contact me. 
   My Email is: ${response.email}
-  If you would like to view other applications I have created; my GitHub username is ${response.name}
+  If you would like to view other applications I have created; my GitHub username is ${response.name} and here is a link to my GitHub repositories: (https://github.com/${response.name}/)
 `;
 }
 
