@@ -22,7 +22,7 @@ const prompts = [
     {
       type: 'input',
       message: 'How can people contribute to this project?',
-      name: 'contributions',
+      name: 'contributing',
     },
     {
       type: 'list',
