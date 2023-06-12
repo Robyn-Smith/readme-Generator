@@ -118,25 +118,7 @@ ${renderLicenseBadge(response.license)}
 `;
 }
 
-function renderLicenseLink(license) {
-  if (license !== 'none') {
-    return `[license](#license)`;
-  }
-  return '';
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {
-  if (license !== 'none'){
-    return `## License 
-    ${license}`
-  }
-  return '';
-}
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//this function adds the license badge if there is a license selected, if not it returns an empty string
 function renderLicenseBadge(license) {
   if (license !== 'none') {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
@@ -144,8 +126,22 @@ function renderLicenseBadge(license) {
   return '';
 }
 
-// renderLicenseSection()
-// renderLicenseBadge()
-// renderLicenseLink()
+//this function creates a link to the license section if a license is selected
+function renderLicenseLink(license) {
+  if (license !== 'none') {
+    return `[license](#license)`;
+  }
+  return '';
+}
+
+// This function adds the license section to the read me, 
+//if there is no license the section does not appear (returns an empty string)
+function renderLicenseSection(license) {
+  if (license !== 'none'){
+    return `## License 
+    ${license}`
+  }
+  return '';
+}
 
 module.exports = generateMarkdown;

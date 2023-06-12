@@ -1,37 +1,36 @@
-# p
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# o
+
 
   ## Description
-  p
+  o
 
   ## Table of Contents
   + [Description](#description)
   + [Installation](#installation)
   + [Usage](#usage)
   + [Contributions](#contributions)
-  + [license](#license)
+  + 
   + [Testing](#tests)
   + [Questions](#questions)
 
 
   ## Installation
-  p
+  o
 
 
   ## Usage
-  p
+  o
 
 
   ## Contributions
-  p
+  o
 
 
   ## Testing
   npm test
 
 
-  ## License 
-    MIT
+  
 
 
   ## Questions
