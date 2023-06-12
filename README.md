@@ -1,8 +1,8 @@
-# ii
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# o
+
 
   ## Description
-  i
+  o
 
   ## Table of Contents
   + [Description](#description)
@@ -11,29 +11,28 @@
   + [Contributing](#contributing)
   + [Tests](#tests)
   + [Questions](#questions)
-  + [License](#license)
+  
 
   ## Installation
-  i
+  o
 
 
   ## Usage
-  i
+  o
 
 
   ## Contributing
-  i
+  o
 
 
   ## Tests
   npm test
 
 
-  ## License 
-    This application uses an MIT license
+  
 
 
   ## Questions
   If there are any further questions you have about this application please contact me. 
   My Email is: robyn@email.com
-  If you would like to view other applications I have created; my GitHub username is Robyn-Smith and here is a link to my GitHub repositories: (https://github.com/Robyn-Smith/)
+  If you would like to view other applications I have created; my GitHub username is Robyn-Smith and here is a link to my GitHub repositories: https://github.com/Robyn-Smith/
