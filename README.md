@@ -1,8 +1,8 @@
-# o
+# Readme Generator
 
 
   ## Description
-  o
+  A read me generator
 
   ## Table of Contents
   + [Description](#description)
@@ -14,15 +14,15 @@
   
 
   ## Installation
-  o
+  with NPM inquirer
 
 
   ## Usage
-  o
+  To create Read me files
 
 
   ## Contributing
-  o
+  They can access the Github repository 
 
 
   ## Tests
