@@ -40,4 +40,4 @@
 
 
   ## Walkthrough Video
-  [Walk through video](./assets/Walkthrough.mp4)
+  [Walk through video](./assets/walkthrough-close.mp4)
