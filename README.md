@@ -40,4 +40,4 @@
 
 
   ## Walkthrough Video
-  [Walk through video](./assets/Untitled%20video%20-%20Made%20with%20Clipchamp.mp4)
+  [Walk through video](./assets/Walkthrough.mp4)
