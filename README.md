@@ -40,6 +40,7 @@
 
 
   ## Walkthrough Video
+  https://youtu.be/HW0jhYswlcA
 
 https://github.com/Robyn-Smith/readme-Generator/assets/122498141/9e090dd7-97ac-4ae9-a801-d27e52808c3a
 
