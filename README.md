@@ -39,9 +39,4 @@
   If you would like to view other applications I have created; my GitHub username is Robyn-Smith and here is a link to my GitHub repositories: https://github.com/Robyn-Smith/
 
 
-  ## Walkthrough Video
-
-https://github.com/Robyn-Smith/readme-Generator/assets/122498141/9e090dd7-97ac-4ae9-a801-d27e52808c3a
-
-
   
